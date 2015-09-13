@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* If IE8 */
+
+
+	.navbar-default{
+		background-color:#eef6fd !important;
+}
+
+	.dropdown-menu{
+		background-color:#eef6fd !important;
+}
+
+
+	.jumbotron {
+		background-image: url('../img/main-bkgrd.png');
+		background-repeat: no-repeat;
+		background-position: 100% 200%;
+		background-size: 100% 100%;
+		width: 100%;
+		height: 800px;
+		padding: 150px 0 0px 0;
+		margin-top: 0px;
+		margin-bottom: 70px;
+}
+
+	.jumbotron h1{
+		margin-top: 100px;
+}
+
+
+	.device {
+		width: 350px;
+		height: 473px;
+		margin-top: 100px;
+		margin-bottom:20px;
+		background: url('../img/devices-xs.png') no-repeat;
+}	
+
+	.teacher-hero {
+		width: 554px;
+		height: 608px;
+		background: url('../img/teacher-hero.png') no-repeat;
+		margin-top:45px;
+		margin-bottom:-50px;
+}
+	
+	.prime-logo-main {
+		width:	300px;
+		height: 207px;
+		margin-top:45px;
+		margin-bottom:10px;
+		background:url('../img/prime-logo-main.png') no-repeat;
+}
+	
+	.planner-hero {
+		width: 389px;
+		height: 608px;
+		background: url('../img/planner-hero.png') no-repeat;
+		margin-bottom:0px;
+		margin-right:0px;
+}
+	
+	.primary-stand-hero {
+		margin-top: 70px;
+}
+
+	.primary-person-hero {
+		margin-top: 70px;
+}
+
+	.elem-person-hero {
+		margin-top: 70px;
+}
+
+	.elem-stand-hero {
+		margin-top: 70px;
+}
+
+	.ms-person-hero {
+		margin-top: 70px;
+}
+
+	.ms-stand-hero {
+		margin-top: 70px;
+}
+
+	.hs-person-hero {
+		margin-top: 70px;
+}
+
+	.hs-stand-hero {
+		margin-top: 70px;
+}
+
+	.folder-hero {
+		margin-top: 70px;
+}
+
+.elem-hero {
+	width: 400px;
+	height: 439px;
+	background: url('../img/elem_hero-ie8.png') no-repeat;
+	margin-top: 120px;
+	margin-bottom:-85px;
+	margin-right:0px;
+}
+
+.primary-hero {
+	width: 400px;
+	height: 439px;
+	background: url('../img/primary_hero_ie8.png') no-repeat;
+	margin-top: 120px;
+	margin-bottom:0px;
+	margin-right:65px;
+}
+
+.middle-hero {
+	width: 400px;
+	height: 439px;
+	background: url('../img/middle-hero_ie8.png') no-repeat;
+	margin-top: 120px;
+	margin-bottom:0px;
+	margin-right:65px;
+}
+
+.hs-hero {
+	width: 400px;
+	height: 439px;
+	background: url('../img/hs-hero_ie8.png') no-repeat;
+	margin-top: 120px;
+	margin-bottom:0px;
+	margin-right:65px;
+}

@@ -1,0 +1,18 @@
+Time of Error: 11/28/2013 12:25 PM
+URL: http://localhost:53236/AuthNetWebService/MilitarySecure/MilPayment.aspx
+Form: 
+QueryString: 
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:25.0) Gecko/20100101 Firefox/25.0
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: True
+Message: Input string was not in a correct format.
+Source: Microsoft.VisualBasic
+TargetSite: Double ParseDouble(System.String, System.Globalization.NumberFormatInfo)
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+
+
+
+

@@ -1,0 +1,409 @@
+Time of Error: 5/5/2014 8:48 AM
+URL: http://localhost:62723/AuthNetWebService/MeridianSecure/CreditCardPayment.aspx?orderid=1094
+Form: 
+QueryString: orderid=1094
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: True
+Message: The file '/AuthNetWebService/MeridianSecure/CreditCardPayment.aspx' does not exist.
+Source: System.Web
+TargetSite: Void CheckVirtualFileExists(System.Web.VirtualPath)
+StackTrace:    at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 5/6/2014 9:06 AM
+URL: http://localhost:62723/AuthNetWebService/MeridianSecure/CreditCardPayment.aspx?orderid=1096
+Form: __EVENTTARGET=&__EVENTARGUMENT=&__LASTFOCUS=&__VIEWSTATE=%2fwEPDwUJMTM2Njc0MjA5D2QWAgIDD2QWCAIFDw8WAh4EVGV4dAUGMTU5LjAyZGQCBw8PFgIfAAUEMTA5NmRkAi0PD2QPEBYBZhYBFgIeDlBhcmFtZXRlclZhbHVlBQQxMDk2FgECBGRkAjEPD2QPEBYBZhYBFgIfAQUEMTA5NhYBAgRkZGTKPCAGxez8gVMD2ucmLSeN92lRcPdmiLOFKg8vxxU2QA%3d%3d&__EVENTVALIDATION=%2fwEdACSZOGvq9tjuFBa2QRpPeFUpzfg78Z8BXhXifTCAVkevd6bquqahweREhCEu0VsWX5K39ZtvgPbp1DYXldCAWuZRLx4Q14iMVMvsGyLW0W1cqqFxKzDckJRup0%2bhwouvsk6qZo6OUc%2b1sfXW1RLDa7RCvsBdmgvumGfEfcAEfFYyiOy1n1kujBPlpkXu%2bLuRNs4K7vFThfgSHmXs07hznQULttNFGdu2oKKPVSvWUpGkXBf6rTLFPm8eUj1eQz8AB6eqaObzoNmZWVh3XA%2bmw3ZpcJ%2bHNR6inn47eA%2fLIgr3u8RRz7XszgRtd4V658OpeppTZeZcUro95IK%2bx9h%2bbFhVDX7gr%2bcKzbHvt9qlFmZvzg41XRPEQn0e6EwituguTZOceBbiTujPi2aOG%2bHlAaCXUPHuY4PERP374m70OkW2pbiWmgwBL5nJb6voZUbC0jcSuVxniEbOv%2bzYCXgXp991v0hKOlTZI%2bpXY2kHmgn1Ejrvc6pLAtZ0b8HbmGLSQNsgwKX%2bQsm2iiDDpyDEv0LBecvBV7UWNzOGGoH%2fbumVruIxj39gBpCswCwHn6PnrQRUdGgNCLM9v%2fNUTBW32uKofNUoKn0i%2f7QEhApZqIlOMifDKbLbOrs%2fO0jL8U0GgFWpByRUFI34HADb%2flt75wYd4k%2fy6vzEohPlqDbGeZadUNX8uDEX639RjZN6uAXcWNWGuVNmqZyAe0LH6BNu1SXeYBrsTbHH9h9OOD0e7OnD5p6A7kCQOOUIAPaukEkY31%2fC2FFFJJNrullDdpRN5cfmXu1sa7QabZmqQCzT1UCLFg%3d%3d&Button1=Button&ddlcardtype=&x_card_num=&x_card_code=&x_first_name=&x_last_name=&ddlmonth=&ddlyear=&eo_version=11.0.20.2&eo_style_keys=%2fwFk
+QueryString: orderid=1096
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: True
+Message: Oh no!
+Source: App_Web_bxrc0hr0
+TargetSite: Void Button1_Click(System.Object, System.EventArgs)
+StackTrace:    at CreditCardPayment.Button1_Click(Object sender, EventArgs e) in F:\InetPub\wwwroot\AuthNetWebService\MeridianSecure\CreditCardPayment.aspx.vb:line 557
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 5/6/2014 9:09 AM
+URL: http://localhost:62723/AuthNetWebService/MeridianSecure/CreditCardPayment.aspx?orderid=1096
+Form: __EVENTTARGET=&__EVENTARGUMENT=&__LASTFOCUS=&__VIEWSTATE=%2fwEPDwUJMTM2Njc0MjA5D2QWAgIDD2QWCAIFDw8WAh4EVGV4dAUGMTU5LjAyZGQCBw8PFgIfAAUEMTA5NmRkAi0PD2QPEBYBZhYBFgIeDlBhcmFtZXRlclZhbHVlBQQxMDk2FgECBGRkAjEPD2QPEBYBZhYBFgIfAQUEMTA5NhYBAgRkZGTKPCAGxez8gVMD2ucmLSeN92lRcPdmiLOFKg8vxxU2QA%3d%3d&__EVENTVALIDATION=%2fwEdACSZOGvq9tjuFBa2QRpPeFUpzfg78Z8BXhXifTCAVkevd6bquqahweREhCEu0VsWX5K39ZtvgPbp1DYXldCAWuZRLx4Q14iMVMvsGyLW0W1cqqFxKzDckJRup0%2bhwouvsk6qZo6OUc%2b1sfXW1RLDa7RCvsBdmgvumGfEfcAEfFYyiOy1n1kujBPlpkXu%2bLuRNs4K7vFThfgSHmXs07hznQULttNFGdu2oKKPVSvWUpGkXBf6rTLFPm8eUj1eQz8AB6eqaObzoNmZWVh3XA%2bmw3ZpcJ%2bHNR6inn47eA%2fLIgr3u8RRz7XszgRtd4V658OpeppTZeZcUro95IK%2bx9h%2bbFhVDX7gr%2bcKzbHvt9qlFmZvzg41XRPEQn0e6EwituguTZOceBbiTujPi2aOG%2bHlAaCXUPHuY4PERP374m70OkW2pbiWmgwBL5nJb6voZUbC0jcSuVxniEbOv%2bzYCXgXp991v0hKOlTZI%2bpXY2kHmgn1Ejrvc6pLAtZ0b8HbmGLSQNsgwKX%2bQsm2iiDDpyDEv0LBecvBV7UWNzOGGoH%2fbumVruIxj39gBpCswCwHn6PnrQRUdGgNCLM9v%2fNUTBW32uKofNUoKn0i%2f7QEhApZqIlOMifDKbLbOrs%2fO0jL8U0GgFWpByRUFI34HADb%2flt75wYd4k%2fy6vzEohPlqDbGeZadUNX8uDEX639RjZN6uAXcWNWGuVNmqZyAe0LH6BNu1SXeYBrsTbHH9h9OOD0e7OnD5p6A7kCQOOUIAPaukEkY31%2fC2FFFJJNrullDdpRN5cfmXu1sa7QabZmqQCzT1UCLFg%3d%3d&Button1=Button&ddlcardtype=&x_card_num=&x_card_code=&x_first_name=&x_last_name=&ddlmonth=&ddlyear=&eo_version=11.0.20.2&eo_style_keys=%2fwFk
+QueryString: orderid=1096
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: True
+Message: Oh no!
+Source: App_Web_bxrc0hr0
+TargetSite: Void Button1_Click(System.Object, System.EventArgs)
+StackTrace:    at CreditCardPayment.Button1_Click(Object sender, EventArgs e) in F:\InetPub\wwwroot\AuthNetWebService\MeridianSecure\CreditCardPayment.aspx.vb:line 557
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 5/6/2014 9:11 AM
+URL: http://localhost:62723/AuthNetWebService/MeridianSecure/CreditCardPayment.aspx?orderid=1096
+Form: __EVENTTARGET=&__EVENTARGUMENT=&__LASTFOCUS=&__VIEWSTATE=%2fwEPDwUJMTM2Njc0MjA5D2QWAgIDD2QWCAIFDw8WAh4EVGV4dAUGMTU5LjAyZGQCBw8PFgIfAAUEMTA5NmRkAi0PD2QPEBYBZhYBFgIeDlBhcmFtZXRlclZhbHVlBQQxMDk2FgECBGRkAjEPD2QPEBYBZhYBFgIfAQUEMTA5NhYBAgRkZGTKPCAGxez8gVMD2ucmLSeN92lRcPdmiLOFKg8vxxU2QA%3d%3d&__EVENTVALIDATION=%2fwEdACSZOGvq9tjuFBa2QRpPeFUpzfg78Z8BXhXifTCAVkevd6bquqahweREhCEu0VsWX5K39ZtvgPbp1DYXldCAWuZRLx4Q14iMVMvsGyLW0W1cqqFxKzDckJRup0%2bhwouvsk6qZo6OUc%2b1sfXW1RLDa7RCvsBdmgvumGfEfcAEfFYyiOy1n1kujBPlpkXu%2bLuRNs4K7vFThfgSHmXs07hznQULttNFGdu2oKKPVSvWUpGkXBf6rTLFPm8eUj1eQz8AB6eqaObzoNmZWVh3XA%2bmw3ZpcJ%2bHNR6inn47eA%2fLIgr3u8RRz7XszgRtd4V658OpeppTZeZcUro95IK%2bx9h%2bbFhVDX7gr%2bcKzbHvt9qlFmZvzg41XRPEQn0e6EwituguTZOceBbiTujPi2aOG%2bHlAaCXUPHuY4PERP374m70OkW2pbiWmgwBL5nJb6voZUbC0jcSuVxniEbOv%2bzYCXgXp991v0hKOlTZI%2bpXY2kHmgn1Ejrvc6pLAtZ0b8HbmGLSQNsgwKX%2bQsm2iiDDpyDEv0LBecvBV7UWNzOGGoH%2fbumVruIxj39gBpCswCwHn6PnrQRUdGgNCLM9v%2fNUTBW32uKofNUoKn0i%2f7QEhApZqIlOMifDKbLbOrs%2fO0jL8U0GgFWpByRUFI34HADb%2flt75wYd4k%2fy6vzEohPlqDbGeZadUNX8uDEX639RjZN6uAXcWNWGuVNmqZyAe0LH6BNu1SXeYBrsTbHH9h9OOD0e7OnD5p6A7kCQOOUIAPaukEkY31%2fC2FFFJJNrullDdpRN5cfmXu1sa7QabZmqQCzT1UCLFg%3d%3d&Button1=Button&ddlcardtype=&x_card_num=&x_card_code=&x_first_name=&x_last_name=&ddlmonth=&ddlyear=&eo_version=11.0.20.2&eo_style_keys=%2fwFk
+QueryString: orderid=1096
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: True
+Message: Oh no!
+Source: App_Web_bxrc0hr0
+TargetSite: Void Button1_Click(System.Object, System.EventArgs)
+StackTrace:    at CreditCardPayment.Button1_Click(Object sender, EventArgs e) in F:\InetPub\wwwroot\AuthNetWebService\MeridianSecure\CreditCardPayment.aspx.vb:line 557
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 5/12/2014 11:15 PM
+URL: https://www.securepaymentportal.com/MeridianSecure/CreditCardPayment.aspx?orderid=1205
+Form: ddlcardtype=VISA&x_card_num=4128003456991291&x_card_code=130&x_first_name=JENIFER&x_last_name=DAVIDSON&ddlmonth=05&ddlyear=2018&eo_version=11.0.20.2&eo_style_keys=%2fwFk&btncc=Submit+Order&__EVENTTARGET=&__EVENTARGUMENT=&__LASTFOCUS=&__VIEWSTATE=%2fwEPDwUJLTkxNDMxMjcyD2QWAgIDD2QWCAIDDw8WAh4EVGV4dAUGMzEzLjgzZGQCBQ8PFgIfAAUEMTIwNWRkAisPD2QPEBYBZhYBFgIeDlBhcmFtZXRlclZhbHVlBQQxMjA1FgECBGRkAi8PD2QPEBYBZhYBFgIfAQUEMTIwNRYBAgRkZGTxlIr%2bYYuZkoYS%2f1Kz9EnKchFs0EScW%2bX4f3AGfJueBg%3d%3d&__EVENTVALIDATION=%2fwEdACNeF6XUZUsco9xtebckeJ8oF%2fqtMsU%2bbx5SPV5DPwAHp6po5vOg2ZlZWHdcD6bDdmlwn4c1HqKefjt4D8siCve7xFHPtezOBG13hXrnw6l6mlNl5lxSuj3kgr7H2H5sWFUNfuCv5wrNse%2b32qUWZm%2fODjVdE8RCfR7oTCK26C5Nk5x4FuJO6M%2bLZo4b4eUBoJdQ8e5jg8RE%2ffvibvQ6RbaluJaaDAEvmclvq%2bhlRsLSNxK5XGeIRs6%2f7NgJeBen33W%2fSEo6VNkj6ldjaQeaCfUSOu9zqksC1nRvwduYYtJA2yDApf5CybaKIMOnIMS%2fQsF5y8FXtRY3M4Yagf9u6ZWu4jGPf2AGkKzALAefo%2betBFR0aA0Isz2%2f81RMFbfa4qh81SgqfSL%2ftASEClmoiU4yJ8Mpsts6uz87SMvxTQaAVakHJFQUjfgcANv%2bW3vnBh3iT%2fLq%2fMSiE%2bWoNsZ5lp1Q1fy4MRfrf1GNk3q4BdxY1Ya5U2apnIB7QsfoE27VJd5gGuxNscf2H044PR7s6cPmpuq6pqHB5ESEIS7RWxZfkrf1m2%2bA9unUNheV0IBa5lEvHhDXiIxUy%2bwbItbRbVyqoXErMNyQlG6nT6HCi6%2byTqpmjo5Rz7Wx9dbVEsNrtEK%2bwF2aC%2b6YZ8R9wAR8VjKI7LWfWS6ME%2bWmRe74u5E2zgru8VOF%2bBIeZezTuHOdBQu200UZ27agoo9VK9ZSkaRcnoDuQJA45QgA9q6QSRjfXxBaDrmVFf98wicOBWmZExpRikYTwhmwSLaw4zOj%2bYdu
+QueryString: orderid=1205
+Server Name: www.securepaymentportal.com
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.75.14 (KHTML, like Gecko) Version/6.1.3 Safari/537.75.14
+User IP: 205.209.224.231
+User Host Name: 205.209.224.231
+User is Authenticated: False
+Message: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 64.94.118.33:443
+Source: System
+TargetSite: Void DoConnect(System.Net.EndPoint, System.Net.SocketAddress)
+StackTrace:    at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+
+Time of Error: 8/10/2014 8:22 PM
+URL: https://www.securepaymentportal.com/MeridianSecure/SchoolPay.aspx?schcode=124487
+Form: 
+QueryString: schcode=124487
+Server Name: www.securepaymentportal.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Firefox/31.0
+User IP: 12.216.18.179
+User Host Name: 12.216.18.179
+User is Authenticated: False
+Message: The file '/MeridianSecure/SchoolPay.aspx' does not exist.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult GetVPathBuildResultInternal(System.Web.VirtualPath, Boolean, Boolean, Boolean, Boolean, Boolean)
+StackTrace:    at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 8/10/2014 8:23 PM
+URL: https://www.securepaymentportal.com/MeridianSecure/SchoolPay.aspx?schcode=124487
+Form: 
+QueryString: schcode=124487
+Server Name: www.securepaymentportal.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Firefox/31.0
+User IP: 12.216.18.179
+User Host Name: 12.216.18.179
+User is Authenticated: False
+Message: The file '/MeridianSecure/SchoolPay.aspx' does not exist.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult GetVPathBuildResultInternal(System.Web.VirtualPath, Boolean, Boolean, Boolean, Boolean, Boolean)
+StackTrace:    at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 9/9/2014 9:20 AM
+URL: https://www.securepaymentportal.com/MeridianSecure/PoPay.aspx?schcode=124487
+Form: 
+QueryString: schcode=124487
+Server Name: www.securepaymentportal.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:32.0) Gecko/20100101 Firefox/32.0
+User IP: 12.216.18.179
+User Host Name: 12.216.18.179
+User is Authenticated: False
+Message: E:\wwwroot\securepaymentportal\AuthNetWebService\MeridianSecure\PoPay.aspx.vb(406): error BC30203: Identifier expected.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+StackTrace:    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 9/9/2014 9:45 AM
+URL: https://www.securepaymentportal.com/MeridianSecure/PoPay.aspx?schcode=124487
+Form: 
+QueryString: schcode=124487
+Server Name: www.securepaymentportal.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:32.0) Gecko/20100101 Firefox/32.0
+User IP: 12.216.18.179
+User Host Name: 12.216.18.179
+User is Authenticated: False
+Message: E:\wwwroot\securepaymentportal\AuthNetWebService\MeridianSecure\PoPay.aspx.vb(406): error BC30203: Identifier expected.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+StackTrace:    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 9/9/2014 9:45 AM
+URL: https://www.securepaymentportal.com/MeridianSecure/PoPay.aspx?schcode=124487
+Form: 
+QueryString: schcode=124487
+Server Name: www.securepaymentportal.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:32.0) Gecko/20100101 Firefox/32.0
+User IP: 12.216.18.179
+User Host Name: 12.216.18.179
+User is Authenticated: False
+Message: E:\wwwroot\securepaymentportal\AuthNetWebService\MeridianSecure\PoPay.aspx.vb(406): error BC30203: Identifier expected.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+StackTrace:    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 9/9/2014 9:50 AM
+URL: https://www.securepaymentportal.com/MeridianSecure/PoPay.aspx?schcode=124487
+Form: 
+QueryString: schcode=124487
+Server Name: www.securepaymentportal.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:32.0) Gecko/20100101 Firefox/32.0
+User IP: 12.216.18.179
+User Host Name: 12.216.18.179
+User is Authenticated: False
+Message: E:\wwwroot\securepaymentportal\AuthNetWebService\MeridianSecure\PoPay.aspx.vb(406): error BC30203: Identifier expected.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+StackTrace:    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 9/22/2014 10:55 AM
+URL: https://www.securepaymentportal.com/MeridianSecure/PoPay.aspx?schcode=774783
+Form: __EVENTTARGET=ccsubmit&__EVENTARGUMENT=&__LASTFOCUS=&__VIEWSTATE=%2fwEPDwULLTIwOTA3MTc0ODEPZBYEAgEPFgIeBXN0eWxlBRF0b3A6NjAlO2xlZnQ6NTUlO2QCAw9kFgwCBQ8PFgIeBFRleHQFF1BJRVJDRSBDSVRZIEhJR0ggU0NIT09MZGQCBw8PFgIfAQURMzAwIE15cnRsZSBTdHJlZXRkZAIJDw8WAh8BBRRQSUVSQ0UgQ0lUWSxNTyA2NTcyM2RkAgsPEGRkFgFmZAIhD2QWAgILDxBkZBYBZmQCIw8PZA8PFCsAARYGHgROYW1lBQhAc2NoY29kZR4MRGVmYXVsdFZhbHVlBQY3NzQ3ODMeDlBhcmFtZXRlclZhbHVlZBQrAQECA2RkZHjLA7osbgLy6ncQWx7WHIVo320AduOiJlbgddg2Cbri&__SCROLLPOSITIONX=0&__SCROLLPOSITIONY=562&__EVENTVALIDATION=%2fwEdAChbIgOtRnVKA2rkBPVqMJU4S7LT3JygXhkzplN%2fn8RAvdfkxN3uyDUHSR4MthcAO62GqxajZ9XeYcnwdKzT%2fJyto%2bmwogPtXJu%2faVeDDAfZnqUEFsqcpZ3Ad6dr0g7pD4l8voVCAa%2bDkkROy9MmLNm2wsQHZSgtak0GckVf30r3B8J2VpQG5pWZ2VZ6q6Bn%2bfa%2bwF2aC%2b6YZ8R9wAR8VjKI7LWfWS6ME%2bWmRe74u5E2zgru8VOF%2bBIeZezTuHOdBQu200UZ27agoo9VK9ZSkaRcF%2fqtMsU%2bbx5SPV5DPwAHp6po5vOg2ZlZWHdcD6bDdmlwn4c1HqKefjt4D8siCve7xFHPtezOBG13hXrnw6l6mlNl5lxSuj3kgr7H2H5sWFUNfuCv5wrNse%2b32qUWZm%2fODjVdE8RCfR7oTCK26C5Nk5x4FuJO6M%2bLZo4b4eUBoJdQ8e5jg8RE%2ffvibvQ6RbaluJaaDAEvmclvq%2bhlRsLSNxK5XGeIRs6%2f7NgJeBen33W%2fSEo6VNkj6ldjaQeaCfUSOu9zqksC1nRvwduYYtJA2yDApf5CybaKIMOnIMS%2fQsF5y8FXtRY3M4Yagf9u6ZWu4jGPf2AGkKzALAefo%2betBFR0aA0Isz2%2f81RMFbfa4qh81SgqfSL%2ftASEClmoiU4yJ8Mpsts6uz87SMvxTQaAVakHJFQUjfgcANv%2bW3vnBh3iT%2fLq%2fMSiE%2bWoNsZ5lp1Q1fy4MRfrf1GNk3q4BdxY1Ya5U2apnIB7QsfoE27VJd5gGuxNscf2H044PR7s6cPmI3eCYcABTpqWa%2fHWB5J9pKh6ukl694sBLs%2fsjncHgENKq13GfdILL4J56sM%2bctuKK2cVNmdXWJ%2fIi33FxcnDTwDKKWk4HCXETC6iDnqC4tw%3d&hfschcode=774783&hfpaytype=CC&rbpaytype=CC&txtamount=1111.95&txtemail=melissa%40pcschools.net&txtPo=74624&x_card_num=4715620012001379&x_card_code=265&x_first_name=Pierce+City+RVI&x_last_name=School+District&ddlmonth=04&ddlyear=2015&eo_version=11.0.20.2&eo_style_keys=%2fwFk
+QueryString: schcode=774783
+Server Name: www.securepaymentportal.com
+User Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+User IP: 150.199.198.99
+User Host Name: 150.199.198.99
+User is Authenticated: False
+Message: The remote name could not be resolved: 'secure.authorize.net'
+Source: System
+TargetSite: System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+StackTrace:    at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at submission.Capture(AuthReq request) in E:\wwwroot\securepaymentportal\AuthNetWebService\App_Code\submission.vb:line 88
+   at PoPay.ccsubmit_Click(Object sender, EventArgs e) in E:\wwwroot\securepaymentportal\AuthNetWebService\MeridianSecure\PoPay.aspx.vb:line 125
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 9/22/2014 10:55 AM
+URL: https://www.securepaymentportal.com/MeridianSecure/PoPay.aspx?schcode=774783
+Form: __EVENTTARGET=ccsubmit&__EVENTARGUMENT=&__LASTFOCUS=&__VIEWSTATE=%2fwEPDwULLTIwOTA3MTc0ODEPZBYEAgEPFgIeBXN0eWxlBRF0b3A6NjAlO2xlZnQ6NTUlO2QCAw9kFgwCBQ8PFgIeBFRleHQFF1BJRVJDRSBDSVRZIEhJR0ggU0NIT09MZGQCBw8PFgIfAQURMzAwIE15cnRsZSBTdHJlZXRkZAIJDw8WAh8BBRRQSUVSQ0UgQ0lUWSxNTyA2NTcyM2RkAgsPEGRkFgFmZAIhD2QWAgILDxBkZBYBZmQCIw8PZA8PFCsAARYGHgROYW1lBQhAc2NoY29kZR4MRGVmYXVsdFZhbHVlBQY3NzQ3ODMeDlBhcmFtZXRlclZhbHVlZBQrAQECA2RkZHjLA7osbgLy6ncQWx7WHIVo320AduOiJlbgddg2Cbri&__SCROLLPOSITIONX=0&__SCROLLPOSITIONY=375&__EVENTVALIDATION=%2fwEdAChbIgOtRnVKA2rkBPVqMJU4S7LT3JygXhkzplN%2fn8RAvdfkxN3uyDUHSR4MthcAO62GqxajZ9XeYcnwdKzT%2fJyto%2bmwogPtXJu%2faVeDDAfZnqUEFsqcpZ3Ad6dr0g7pD4l8voVCAa%2bDkkROy9MmLNm2wsQHZSgtak0GckVf30r3B8J2VpQG5pWZ2VZ6q6Bn%2bfa%2bwF2aC%2b6YZ8R9wAR8VjKI7LWfWS6ME%2bWmRe74u5E2zgru8VOF%2bBIeZezTuHOdBQu200UZ27agoo9VK9ZSkaRcF%2fqtMsU%2bbx5SPV5DPwAHp6po5vOg2ZlZWHdcD6bDdmlwn4c1HqKefjt4D8siCve7xFHPtezOBG13hXrnw6l6mlNl5lxSuj3kgr7H2H5sWFUNfuCv5wrNse%2b32qUWZm%2fODjVdE8RCfR7oTCK26C5Nk5x4FuJO6M%2bLZo4b4eUBoJdQ8e5jg8RE%2ffvibvQ6RbaluJaaDAEvmclvq%2bhlRsLSNxK5XGeIRs6%2f7NgJeBen33W%2fSEo6VNkj6ldjaQeaCfUSOu9zqksC1nRvwduYYtJA2yDApf5CybaKIMOnIMS%2fQsF5y8FXtRY3M4Yagf9u6ZWu4jGPf2AGkKzALAefo%2betBFR0aA0Isz2%2f81RMFbfa4qh81SgqfSL%2ftASEClmoiU4yJ8Mpsts6uz87SMvxTQaAVakHJFQUjfgcANv%2bW3vnBh3iT%2fLq%2fMSiE%2bWoNsZ5lp1Q1fy4MRfrf1GNk3q4BdxY1Ya5U2apnIB7QsfoE27VJd5gGuxNscf2H044PR7s6cPmI3eCYcABTpqWa%2fHWB5J9pKh6ukl694sBLs%2fsjncHgENKq13GfdILL4J56sM%2bctuKK2cVNmdXWJ%2fIi33FxcnDTwDKKWk4HCXETC6iDnqC4tw%3d&hfschcode=774783&hfpaytype=CC&rbpaytype=CC&txtamount=1111.95&txtemail=melissa%40pcschools.net&txtPo=74624&x_card_num=4715620012001379&x_card_code=265&x_first_name=Pierce+City+RVI&x_last_name=School+District&ddlmonth=04&ddlyear=2015&eo_version=11.0.20.2&eo_style_keys=%2fwFk
+QueryString: schcode=774783
+Server Name: www.securepaymentportal.com
+User Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+User IP: 150.199.198.99
+User Host Name: 150.199.198.99
+User is Authenticated: False
+Message: The remote name could not be resolved: 'secure.authorize.net'
+Source: System
+TargetSite: System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+StackTrace:    at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at submission.Capture(AuthReq request) in E:\wwwroot\securepaymentportal\AuthNetWebService\App_Code\submission.vb:line 88
+   at PoPay.ccsubmit_Click(Object sender, EventArgs e) in E:\wwwroot\securepaymentportal\AuthNetWebService\MeridianSecure\PoPay.aspx.vb:line 125
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 9/22/2014 10:56 AM
+URL: https://www.securepaymentportal.com/MeridianSecure/PoPay.aspx?schcode=774783
+Form: __EVENTTARGET=ccsubmit&__EVENTARGUMENT=&__LASTFOCUS=&__VIEWSTATE=%2fwEPDwULLTIwOTA3MTc0ODEPZBYEAgEPFgIeBXN0eWxlBRF0b3A6NjAlO2xlZnQ6NTUlO2QCAw9kFgwCBQ8PFgIeBFRleHQFF1BJRVJDRSBDSVRZIEhJR0ggU0NIT09MZGQCBw8PFgIfAQURMzAwIE15cnRsZSBTdHJlZXRkZAIJDw8WAh8BBRRQSUVSQ0UgQ0lUWSxNTyA2NTcyM2RkAgsPEGRkFgFmZAIhD2QWAgILDxBkZBYBZmQCIw8PZA8PFCsAARYGHgROYW1lBQhAc2NoY29kZR4MRGVmYXVsdFZhbHVlBQY3NzQ3ODMeDlBhcmFtZXRlclZhbHVlZBQrAQECA2RkZHjLA7osbgLy6ncQWx7WHIVo320AduOiJlbgddg2Cbri&__SCROLLPOSITIONX=14&__SCROLLPOSITIONY=562&__EVENTVALIDATION=%2fwEdAChbIgOtRnVKA2rkBPVqMJU4S7LT3JygXhkzplN%2fn8RAvdfkxN3uyDUHSR4MthcAO62GqxajZ9XeYcnwdKzT%2fJyto%2bmwogPtXJu%2faVeDDAfZnqUEFsqcpZ3Ad6dr0g7pD4l8voVCAa%2bDkkROy9MmLNm2wsQHZSgtak0GckVf30r3B8J2VpQG5pWZ2VZ6q6Bn%2bfa%2bwF2aC%2b6YZ8R9wAR8VjKI7LWfWS6ME%2bWmRe74u5E2zgru8VOF%2bBIeZezTuHOdBQu200UZ27agoo9VK9ZSkaRcF%2fqtMsU%2bbx5SPV5DPwAHp6po5vOg2ZlZWHdcD6bDdmlwn4c1HqKefjt4D8siCve7xFHPtezOBG13hXrnw6l6mlNl5lxSuj3kgr7H2H5sWFUNfuCv5wrNse%2b32qUWZm%2fODjVdE8RCfR7oTCK26C5Nk5x4FuJO6M%2bLZo4b4eUBoJdQ8e5jg8RE%2ffvibvQ6RbaluJaaDAEvmclvq%2bhlRsLSNxK5XGeIRs6%2f7NgJeBen33W%2fSEo6VNkj6ldjaQeaCfUSOu9zqksC1nRvwduYYtJA2yDApf5CybaKIMOnIMS%2fQsF5y8FXtRY3M4Yagf9u6ZWu4jGPf2AGkKzALAefo%2betBFR0aA0Isz2%2f81RMFbfa4qh81SgqfSL%2ftASEClmoiU4yJ8Mpsts6uz87SMvxTQaAVakHJFQUjfgcANv%2bW3vnBh3iT%2fLq%2fMSiE%2bWoNsZ5lp1Q1fy4MRfrf1GNk3q4BdxY1Ya5U2apnIB7QsfoE27VJd5gGuxNscf2H044PR7s6cPmI3eCYcABTpqWa%2fHWB5J9pKh6ukl694sBLs%2fsjncHgENKq13GfdILL4J56sM%2bctuKK2cVNmdXWJ%2fIi33FxcnDTwDKKWk4HCXETC6iDnqC4tw%3d&hfschcode=774783&hfpaytype=CC&rbpaytype=CC&txtamount=1111.95&txtemail=melissa%40pcschools.net&txtPo=74624&x_card_num=4715620012001379&x_card_code=265&x_first_name=Pierce+City+RVI&x_last_name=School+District&ddlmonth=04&ddlyear=2015&eo_version=11.0.20.2&eo_style_keys=%2fwFk
+QueryString: schcode=774783
+Server Name: www.securepaymentportal.com
+User Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+User IP: 150.199.198.99
+User Host Name: 150.199.198.99
+User is Authenticated: False
+Message: The remote name could not be resolved: 'secure.authorize.net'
+Source: System
+TargetSite: System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+StackTrace:    at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at submission.Capture(AuthReq request) in E:\wwwroot\securepaymentportal\AuthNetWebService\App_Code\submission.vb:line 88
+   at PoPay.ccsubmit_Click(Object sender, EventArgs e) in E:\wwwroot\securepaymentportal\AuthNetWebService\MeridianSecure\PoPay.aspx.vb:line 125
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 9/22/2014 11:04 AM
+URL: https://www.securepaymentportal.com/MeridianSecure/PoPay.aspx?schcode=774783
+Form: __EVENTTARGET=ccsubmit&__EVENTARGUMENT=&__LASTFOCUS=&__VIEWSTATE=%2fwEPDwULLTIwOTA3MTc0ODEPZBYEAgEPFgIeBXN0eWxlBRF0b3A6NjAlO2xlZnQ6NTUlO2QCAw9kFg4CBQ8PFgIeBFRleHQFF1BJRVJDRSBDSVRZIEhJR0ggU0NIT09MZGQCBw8PFgIfAQURMzAwIE15cnRsZSBTdHJlZXRkZAIJDw8WAh8BBRRQSUVSQ0UgQ0lUWSxNTyA2NTcyM2RkAgsPEGRkFgFmZAITDw8WAh8BBSgnICwgJyBzZXBlcmF0b3Igc3ltYm9scyBhcmUgbm90IGFsbG93ZWQuZGQCIQ9kFgICCw8QZGQWAWZkAiMPD2QPDxQrAAEWBh4ETmFtZQUIQHNjaGNvZGUeDERlZmF1bHRWYWx1ZQUGNzc0NzgzHg5QYXJhbWV0ZXJWYWx1ZWQUKwEBAgNkZGSnyCtmMpztjRW7TpAS3OUfZGAGsNZGKQCoHTD%2fQJ5jPA%3d%3d&__SCROLLPOSITIONX=0&__SCROLLPOSITIONY=412&__EVENTVALIDATION=%2fwEdACh3uAjtcaaQuroNSaoi20vJS7LT3JygXhkzplN%2fn8RAvdfkxN3uyDUHSR4MthcAO62GqxajZ9XeYcnwdKzT%2fJyto%2bmwogPtXJu%2faVeDDAfZnqUEFsqcpZ3Ad6dr0g7pD4l8voVCAa%2bDkkROy9MmLNm2wsQHZSgtak0GckVf30r3B8J2VpQG5pWZ2VZ6q6Bn%2bfa%2bwF2aC%2b6YZ8R9wAR8VjKI7LWfWS6ME%2bWmRe74u5E2zgru8VOF%2bBIeZezTuHOdBQu200UZ27agoo9VK9ZSkaRcF%2fqtMsU%2bbx5SPV5DPwAHp6po5vOg2ZlZWHdcD6bDdmlwn4c1HqKefjt4D8siCve7xFHPtezOBG13hXrnw6l6mlNl5lxSuj3kgr7H2H5sWFUNfuCv5wrNse%2b32qUWZm%2fODjVdE8RCfR7oTCK26C5Nk5x4FuJO6M%2bLZo4b4eUBoJdQ8e5jg8RE%2ffvibvQ6RbaluJaaDAEvmclvq%2bhlRsLSNxK5XGeIRs6%2f7NgJeBen33W%2fSEo6VNkj6ldjaQeaCfUSOu9zqksC1nRvwduYYtJA2yDApf5CybaKIMOnIMS%2fQsF5y8FXtRY3M4Yagf9u6ZWu4jGPf2AGkKzALAefo%2betBFR0aA0Isz2%2f81RMFbfa4qh81SgqfSL%2ftASEClmoiU4yJ8Mpsts6uz87SMvxTQaAVakHJFQUjfgcANv%2bW3vnBh3iT%2fLq%2fMSiE%2bWoNsZ5lp1Q1fy4MRfrf1GNk3q4BdxY1Ya5U2apnIB7QsfoE27VJd5gGuxNscf2H044PR7s6cPmI3eCYcABTpqWa%2fHWB5J9pKh6ukl694sBLs%2fsjncHgENKq13GfdILL4J56sM%2bctuKicwRaK6x6JtU6Id0aXff6RZmNwjIL75U%2bMRVowEEneM%3d&hfschcode=774783&hfpaytype=CC&rbpaytype=CC&txtamount=1111.95&txtemail=melissa%40pcschools.net&txtPo=74624&x_card_num=4715620012001379&x_card_code=265&x_first_name=Pierce+City+RVI&x_last_name=School+District&ddlmonth=04&ddlyear=2015&eo_version=11.0.20.2&eo_style_keys=%2fwFk
+QueryString: schcode=774783
+Server Name: www.securepaymentportal.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:32.0) Gecko/20100101 Firefox/32.0
+User IP: 150.199.198.99
+User Host Name: 150.199.198.99
+User is Authenticated: False
+Message: The remote name could not be resolved: 'secure.authorize.net'
+Source: System
+TargetSite: System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+StackTrace:    at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at submission.Capture(AuthReq request) in E:\wwwroot\securepaymentportal\AuthNetWebService\App_Code\submission.vb:line 88
+   at PoPay.ccsubmit_Click(Object sender, EventArgs e) in E:\wwwroot\securepaymentportal\AuthNetWebService\MeridianSecure\PoPay.aspx.vb:line 125
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 10/19/2014 10:03 AM
+URL: https://www.securepaymentportal.com/MeridianSecure/PoPay.aspx?schcode=124487
+Form: 
+QueryString: schcode=124487
+Server Name: www.securepaymentportal.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0
+User IP: 12.216.18.179
+User Host Name: 12.216.18.179
+User is Authenticated: False
+Message: 
+Source: System.Web
+TargetSite: System.String GetPhysicalPath(System.Web.VirtualPath)
+StackTrace:    at System.Web.CachedPathData.GetPhysicalPath(VirtualPath virtualPath)
+   at System.Web.CachedPathData.GetConfigPathData(String configPath)
+   at System.Web.HttpContext.GetFilePathData()
+   at System.Web.HttpContext.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.PrivilegedConfigurationManager.GetSection(String sectionName)
+   at System.Net.Configuration.SettingsSectionInternal.get_Section()
+   at System.Net.WebUtility..cctor()
+
+
+
+
+Time of Error: 5/14/2015 2:39 PM
+URL: https://www.securepaymentportal.com/MeridianSecure/CreditCardPayment.aspx?orderid=1487
+Form: __EVENTTARGET=MsgBox1&__EVENTARGUMENT=nosubmit&__LASTFOCUS=&__VIEWSTATE=%2fwEPDwUKMTQ0OTg0OTMyOA9kFgICAw9kFgoCAw8PFgIeBFRleHQFBjI2My4xNGRkAgUPDxYCHwAFBDE0ODdkZAIrDw9kDxAWAWYWARYCHg5QYXJhbWV0ZXJWYWx1ZQUEMTQ4NxYBAgRkZAIvDw9kDxAWAWYWARYCHwEFBDE0ODcWAQIEZGQCMQ8PZA9kPCsADgEABQxOQUlCQUFBQUFBQT1kZHcIYMxSYabqHvSpHiHmCZnBBjaPjvdjSoDIeA1jCchu&__VIEWSTATEGENERATOR=1D833221&__EVENTVALIDATION=%2fwEdACMxXpk6WYnpc6t12mW9rYY8puq6pqHB5ESEIS7RWxZfkrf1m2%2bA9unUNheV0IBa5lEvHhDXiIxUy%2bwbItbRbVyqoXErMNyQlG6nT6HCi6%2byTqpmjo5Rz7Wx9dbVEsNrtEK%2bwF2aC%2b6YZ8R9wAR8VjKI7LWfWS6ME%2bWmRe74u5E2zgru8VOF%2bBIeZezTuHOdBQu200UZ27agoo9VK9ZSkaRcF%2fqtMsU%2bbx5SPV5DPwAHp6po5vOg2ZlZWHdcD6bDdmlwn4c1HqKefjt4D8siCve7xFHPtezOBG13hXrnw6l6mlNl5lxSuj3kgr7H2H5sWFUNfuCv5wrNse%2b32qUWZm%2fODjVdE8RCfR7oTCK26C5Nk5x4FuJO6M%2bLZo4b4eUBoJdQ8e5jg8RE%2ffvibvQ6RbaluJaaDAEvmclvq%2bhlRsLSNxK5XGeIRs6%2f7NgJeBen33W%2fSEo6VNkj6ldjaQeaCfUSOu9zqksC1nRvwduYYtJA2yDApf5CybaKIMOnIMS%2fQsF5y8FXtRY3M4Yagf9u6ZWu4jGPf2AGkKzALAefo%2betBFR0aA0Isz2%2f81RMFbfa4qh81SgqfSL%2ftASEClmoiU4yJ8Mpsts6uz87SMvxTQaAVakHJFQUjfgcANv%2bW3vnBh3iT%2fLq%2fMSiE%2bWoNsZ5lp1Q1fy4MRfrf1GNk3q4BdxY1Ya5U2apnIB7QsfoE27VJd5gGuxNscf2H044PR7s6cPmnoDuQJA45QgA9q6QSRjfXz5a6qoWVm1%2fIhNOQ3TKZ8z8p7ro3OqOSGyjYJSZGL3g&ddlcardtype=AMERICAN+EXPRESS&x_card_num=371243688231023&x_card_code=7395&x_first_name=Jenifer&x_last_name=Davidson&ddlmonth=03&ddlyear=2020&eo_version=11.0.20.2&eo_style_keys=%2fwFk
+QueryString: orderid=1487
+Server Name: www.securepaymentportal.com
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.78.2 (KHTML, like Gecko) Version/6.1.6 Safari/537.78.2
+User IP: 205.209.224.231
+User Host Name: 205.209.224.231
+User is Authenticated: False
+Message: Object reference not set to an instance of an object.
+Source: App_Web_xvry4hch
+TargetSite: Void UpdateOrdertoPO()
+StackTrace:    at CreditCardPayment.UpdateOrdertoPO() in E:\wwwroot\securepaymentportal\AuthNetWebService\MeridianSecure\CreditCardPayment.aspx.vb:line 246
+   at CreditCardPayment.MsgBox1_ButtonClick(Object sender, CommandEventArgs e) in E:\wwwroot\securepaymentportal\AuthNetWebService\MeridianSecure\CreditCardPayment.aspx.vb:line 307
+   at EO.Web.MsgBox.b(String A_0)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 7/27/2015 11:21 AM
+URL: https://www.securepaymentportal.com/MeridianSecure/receipt.aspx
+Form: 
+QueryString: 
+Server Name: www.securepaymentportal.com
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+User IP: 54.209.60.63
+User Host Name: 54.209.60.63
+User is Authenticated: False
+Message: String reference not set to an instance of a String.
+Parameter name: input
+Source: mscorlib
+TargetSite: Boolean TryParseTimeSpan(System.String, TimeSpanStandardStyles, System.IFormatProvider, TimeSpanResult ByRef)
+StackTrace:    at System.Globalization.TimeSpanParse.TryParseTimeSpan(String input, TimeSpanStandardStyles style, IFormatProvider formatProvider, TimeSpanResult& result)
+   at System.TimeSpan.Parse(String s)
+   at Receipt.Page_Load(Object sender, EventArgs e) in E:\wwwroot\securepaymentportal\AuthNetWebService\MeridianSecure\Receipt.aspx.vb:line 30
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+

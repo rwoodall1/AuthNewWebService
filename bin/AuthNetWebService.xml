@@ -1,0 +1,1297 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AuthNetWebService
+</name>
+</assembly>
+<members>
+<member name="F:AuthNetWebService.MbcPayment.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.Image1">
+	<summary>
+Image1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.lblschname">
+	<summary>
+lblschname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.Label10">
+	<summary>
+Label10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.rbpaytype">
+	<summary>
+rbpaytype control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.lblamount">
+	<summary>
+lblamount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.Label5">
+	<summary>
+Label5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.lblorderid">
+	<summary>
+lblorderid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.Label6">
+	<summary>
+Label6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.lblemailaddress">
+	<summary>
+lblemailaddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.hfschcode">
+	<summary>
+hfschcode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.hfschinvoicenumber">
+	<summary>
+hfschinvoicenumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.hfpaytype">
+	<summary>
+hfpaytype control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.CCPanel">
+	<summary>
+CCPanel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.x_card_num">
+	<summary>
+x_card_num control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.x_card_code">
+	<summary>
+x_card_code control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.RequiredFieldValidator9">
+	<summary>
+RequiredFieldValidator9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.RequiredFieldValidator4">
+	<summary>
+RequiredFieldValidator4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.x_first_name">
+	<summary>
+x_first_name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.x_last_name">
+	<summary>
+x_last_name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.RequiredFieldValidator5">
+	<summary>
+RequiredFieldValidator5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.RequiredFieldValidator6">
+	<summary>
+RequiredFieldValidator6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.ddlmonth">
+	<summary>
+ddlmonth control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.ddlyear">
+	<summary>
+ddlyear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.RequiredFieldValidator8">
+	<summary>
+RequiredFieldValidator8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.RequiredFieldValidator7">
+	<summary>
+RequiredFieldValidator7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.ccsubmit">
+	<summary>
+ccsubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.ECPanel">
+	<summary>
+ECPanel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.x_bank_acct_name">
+	<summary>
+x_bank_acct_name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.rfCustName">
+	<summary>
+rfCustName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.x_bank_name">
+	<summary>
+x_bank_name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.rfbankname">
+	<summary>
+rfbankname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.x_bank_acct_type">
+	<summary>
+x_bank_acct_type control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.rfacctype">
+	<summary>
+rfacctype control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.x_bank_aba_code">
+	<summary>
+x_bank_aba_code control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.rfRoutingnume">
+	<summary>
+rfRoutingnume control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.x_bank_acct_num">
+	<summary>
+x_bank_acct_num control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.rfBankAcc">
+	<summary>
+rfBankAcc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.ecsubmit">
+	<summary>
+ecsubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.dsorder">
+	<summary>
+dsorder control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.MbcPayment.MsgBox1">
+	<summary>
+MsgBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:AuthNetWebService.payportal.AuthorizenetSubmission.#ctor">
+	<remarks/>
+</member><member name="E:AuthNetWebService.payportal.AuthorizenetSubmission.CaptureCompleted">
+	<remarks/>
+</member><member name="M:AuthNetWebService.payportal.AuthorizenetSubmission.Capture(AuthNetWebService.payportal.AuthReq)">
+	<remarks/>
+</member><member name="M:AuthNetWebService.payportal.AuthorizenetSubmission.CaptureAsync(AuthNetWebService.payportal.AuthReq)">
+	<remarks/>
+</member><member name="M:AuthNetWebService.payportal.AuthorizenetSubmission.CaptureAsync(AuthNetWebService.payportal.AuthReq,System.Object)">
+	<remarks/>
+</member><member name="M:AuthNetWebService.payportal.AuthorizenetSubmission.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:AuthNetWebService.payportal.AuthorizenetSubmission">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.AuthReq.Custid">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.AuthReq.SiteName">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.AuthReq.Address">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.AuthReq.State">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.AuthReq.Zip">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.AuthReq.OrderId">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.AuthReq.Email">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.AuthReq.Method">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.AuthReq.echecktype">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.AuthReq.TransType">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.AuthReq.bankaccounttype">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.AuthReq.bankname">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.AuthReq.bankcustomername">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.AuthReq.bankaccountnumber">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.AuthReq.bankabacode">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.AuthReq.CardNum">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.AuthReq.SecurityCode">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.AuthReq.Amount">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.AuthReq.ExpDate">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.AuthReq.CardFname">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.AuthReq.CardLname">
+	<remarks/>
+</member><member name="T:AuthNetWebService.payportal.AuthReq">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.Response.Custid">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.Response.CardType">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.Response.TransActionType">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.Response.Approved">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.Response.Amount">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.Response.AuthCode">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.Response.TransId">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.Response.Message">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.Response.Method">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.Response.Email">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.Response.CardNum">
+	<remarks/>
+</member><member name="T:AuthNetWebService.payportal.Response">
+	<remarks/>
+</member><member name="T:AuthNetWebService.payportal.CaptureCompletedEventHandler">
+	<remarks/>
+</member><member name="P:AuthNetWebService.payportal.CaptureCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:AuthNetWebService.payportal.CaptureCompletedEventArgs">
+	<remarks/>
+</member><member name="M:AuthNetWebService.localhost.AuthorizenetSubmission.#ctor">
+	<remarks/>
+</member><member name="E:AuthNetWebService.localhost.AuthorizenetSubmission.CaptureCompleted">
+	<remarks/>
+</member><member name="M:AuthNetWebService.localhost.AuthorizenetSubmission.Capture(AuthNetWebService.localhost.AuthReq)">
+	<remarks/>
+</member><member name="M:AuthNetWebService.localhost.AuthorizenetSubmission.CaptureAsync(AuthNetWebService.localhost.AuthReq)">
+	<remarks/>
+</member><member name="M:AuthNetWebService.localhost.AuthorizenetSubmission.CaptureAsync(AuthNetWebService.localhost.AuthReq,System.Object)">
+	<remarks/>
+</member><member name="M:AuthNetWebService.localhost.AuthorizenetSubmission.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:AuthNetWebService.localhost.AuthorizenetSubmission">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.AuthReq.Custid">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.AuthReq.SiteName">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.AuthReq.Address">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.AuthReq.State">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.AuthReq.Zip">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.AuthReq.OrderId">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.AuthReq.Email">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.AuthReq.Method">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.AuthReq.echecktype">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.AuthReq.TransType">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.AuthReq.bankaccounttype">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.AuthReq.bankname">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.AuthReq.bankcustomername">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.AuthReq.bankaccountnumber">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.AuthReq.bankabacode">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.AuthReq.CardNum">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.AuthReq.SecurityCode">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.AuthReq.Amount">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.AuthReq.ExpDate">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.AuthReq.CardFname">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.AuthReq.CardLname">
+	<remarks/>
+</member><member name="T:AuthNetWebService.localhost.AuthReq">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.Response.Custid">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.Response.CardType">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.Response.TransActionType">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.Response.Approved">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.Response.Amount">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.Response.AuthCode">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.Response.TransId">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.Response.Message">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.Response.Method">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.Response.Email">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.Response.CardNum">
+	<remarks/>
+</member><member name="T:AuthNetWebService.localhost.Response">
+	<remarks/>
+</member><member name="T:AuthNetWebService.localhost.CaptureCompletedEventHandler">
+	<remarks/>
+</member><member name="P:AuthNetWebService.localhost.CaptureCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:AuthNetWebService.localhost.CaptureCompletedEventArgs">
+	<remarks/>
+</member><member name="P:AuthNetWebService.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:AuthNetWebService.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:AuthNetWebService.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:AuthNetWebService.CreditCardPayment.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.lblamount">
+	<summary>
+lblamount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.lblorderid">
+	<summary>
+lblorderid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.ddlcardtype">
+	<summary>
+ddlcardtype control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.RequiredFieldValidator2">
+	<summary>
+RequiredFieldValidator2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.x_card_num">
+	<summary>
+x_card_num control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.RequiredFieldValidator3">
+	<summary>
+RequiredFieldValidator3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.x_card_code">
+	<summary>
+x_card_code control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.RequiredFieldValidator4">
+	<summary>
+RequiredFieldValidator4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.Label4">
+	<summary>
+Label4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.x_first_name">
+	<summary>
+x_first_name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.x_last_name">
+	<summary>
+x_last_name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.RequiredFieldValidator5">
+	<summary>
+RequiredFieldValidator5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.RequiredFieldValidator6">
+	<summary>
+RequiredFieldValidator6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.UpdatePanel1">
+	<summary>
+UpdatePanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.ddlmonth">
+	<summary>
+ddlmonth control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.UpdatePanel2">
+	<summary>
+UpdatePanel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.ddlyear">
+	<summary>
+ddlyear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.RequiredFieldValidator8">
+	<summary>
+RequiredFieldValidator8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.RequiredFieldValidator1">
+	<summary>
+RequiredFieldValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.dspayment">
+	<summary>
+dspayment control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.MsgBox1">
+	<summary>
+MsgBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.Image1">
+	<summary>
+Image1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.CreditCardPayment.btncc">
+	<summary>
+btncc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:AuthNetWebService.My.MyWebExtension.Application">
+	<summary>
+ Returns information about the current application.
+ </summary>
+</member><member name="P:AuthNetWebService.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:AuthNetWebService.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:AuthNetWebService.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:AuthNetWebService.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:AuthNetWebService.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="P:AuthNetWebService.My.MyWebExtension.WebServices">
+	<summary>
+ Provides access to WebServices added to this project.
+ </summary>
+</member><member name="T:AuthNetWebService.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.light">
+	<summary>
+light control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.Image1">
+	<summary>
+Image1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.lblschname">
+	<summary>
+lblschname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.Label10">
+	<summary>
+Label10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.rbpaytype">
+	<summary>
+rbpaytype control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.txtamount">
+	<summary>
+txtamount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.RequiredFieldValidator9">
+	<summary>
+RequiredFieldValidator9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.Label6">
+	<summary>
+Label6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.txtemail">
+	<summary>
+txtemail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.RequiredFieldValidator10">
+	<summary>
+RequiredFieldValidator10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.Label11">
+	<summary>
+Label11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.lblinvoice">
+	<summary>
+lblinvoice control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.hfschcode">
+	<summary>
+hfschcode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.hfpaytype">
+	<summary>
+hfpaytype control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.CCPanel">
+	<summary>
+CCPanel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.x_card_num">
+	<summary>
+x_card_num control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.x_card_code">
+	<summary>
+x_card_code control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.RequiredFieldValidator3">
+	<summary>
+RequiredFieldValidator3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.RequiredFieldValidator4">
+	<summary>
+RequiredFieldValidator4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.x_first_name">
+	<summary>
+x_first_name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.x_last_name">
+	<summary>
+x_last_name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.RequiredFieldValidator5">
+	<summary>
+RequiredFieldValidator5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.RequiredFieldValidator6">
+	<summary>
+RequiredFieldValidator6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.ddlmonth">
+	<summary>
+ddlmonth control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.ddlyear">
+	<summary>
+ddlyear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.RequiredFieldValidator8">
+	<summary>
+RequiredFieldValidator8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.RequiredFieldValidator7">
+	<summary>
+RequiredFieldValidator7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.ccsubmit">
+	<summary>
+ccsubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.ECPanel">
+	<summary>
+ECPanel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.x_bank_acct_name">
+	<summary>
+x_bank_acct_name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.rfCustName">
+	<summary>
+rfCustName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.x_bank_name">
+	<summary>
+x_bank_name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.rfbankname">
+	<summary>
+rfbankname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.x_bank_acct_type">
+	<summary>
+x_bank_acct_type control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.rfacctype">
+	<summary>
+rfacctype control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.x_bank_aba_code">
+	<summary>
+x_bank_aba_code control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.rfRoutingnume">
+	<summary>
+rfRoutingnume control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.x_bank_acct_num">
+	<summary>
+x_bank_acct_num control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.rfBankAcc">
+	<summary>
+rfBankAcc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.ecsubmit">
+	<summary>
+ecsubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.dsorder">
+	<summary>
+dsorder control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.SchoolPay.MsgBox1">
+	<summary>
+MsgBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.Receipt.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.Receipt.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.Receipt.lblschname">
+	<summary>
+lblschname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.Receipt.Label10">
+	<summary>
+Label10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.test.Image1">
+	<summary>
+Image1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.test.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.test.TextBox1">
+	<summary>
+TextBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.test.Button1">
+	<summary>
+Button1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.test.RequiredFieldValidator1">
+	<summary>
+RequiredFieldValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService.TimeOut1.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService._error1.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService._error1.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AuthNetWebService._error1.lblerror">
+	<summary>
+lblerror control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

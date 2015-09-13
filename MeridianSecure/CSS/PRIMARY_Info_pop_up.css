@@ -1,0 +1,21 @@
+#feature1 {
+	position: absolute;
+	left: auto;
+	width: 20px;
+	height: 20px;
+	z-index: 34;
+	margin-left: 104px;
+	margin-top: 397px;
+}
+#feature1_MO {
+	position: absolute;
+	left: auto;
+	width: 300px;
+	height: 404px;
+	z-index: 34;
+	margin-left: 230px;
+	margin-top: 150px;
+	border: 2px solid #000;
+	visibility: hidden;
+	background-image: url(../img/primary_title_pg.jpg);
+}

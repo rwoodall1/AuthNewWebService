@@ -1,0 +1,11 @@
+﻿
+Partial Class template
+    Inherits System.Web.UI.Page
+
+  
+
+    Protected Sub Button1_Click(sender As Object, e As System.EventArgs)
+        Dim a As String = Now.Date.AddDays(2)
+
+    End Sub
+End Class

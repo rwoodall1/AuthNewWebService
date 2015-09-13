@@ -1,0 +1,1564 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Typography
+================================= */
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	margin-right: 8px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.social{
+	color: #fff !important;
+	margin: -30px 5px 0px 0px;
+}
+
+.social a{
+	color: #fff !important;
+	font-size: 1.5em;
+	text-decoration:none;
+}
+
+.social a:hover{
+	text-decoration:none;
+}
+
+.main-footer .container .row .col-sm-3 .mission-text {
+	color: #FFF;
+}
+
+body,td,th {
+	color: #000000 !important;
+	font-family: Arial, Helvetica, sans-serif !important;
+}
+
+body{
+	text-shadow:none !important;
+}
+
+h1 {
+	color: #003056 !important;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+.sample-container h1{
+	margin-top:150px;
+}
+.cust-container h1{
+	margin-top:150px;
+}
+
+.cust-container h2{
+	margin-top:25px;
+	margin-top:15px !important;
+}
+
+.cust-container p{
+	margin-top:25px;
+	margin-bottom:5px !important;
+}
+
+.orders-container p{
+	margin-top:5px;
+	margin-bottom:5px !important;
+}
+
+.orders-container h2{
+	margin-top:5px;
+	margin-bottom:5px !important;
+}
+
+.orders-container h1{
+	margin-top:150px;
+}
+
+.deadline-container h1{
+	margin-top:150px;
+	margin-bottom:5px !important;
+}
+
+.deadline-container p{
+	margin-top:5px !important;
+	margin-bottom:5px !important;
+}
+
+.deadline-container iframe{
+	margin-top:5px !important;
+	margin-bottom:5px !important;
+}
+
+h2, h3 {
+	font-size: 1.25em;
+	color: #F08200 !important;
+	margin-bottom: 16px;
+	margin-top: 0;
+}
+
+h2 a {
+	color: #F08200 !important;
+}
+
+p {
+	color: #666666 !important;
+	-webkit-text-shadow: none;
+	text-shadow:none !important;
+	line-height: 1.7;
+	font-size: 1.1em;
+	font-weight: 200;
+}
+strong {
+	color: #5f5d60;
+}
+
+.navbar-text {
+	color: #003056 !important;
+	font-weight: bold !important;
+	margin-right: 0;
+}
+
+.navbar-nav {
+	color: #003056 !important;
+}
+
+.lead{
+	font-weight: 200;
+	color: #003056 !important;
+	margin-bottom: 20px;
+}
+
+.main-footer {
+	font-size: .95em;
+}
+
+.link-list {
+	color:#fff;
+	list-style-type: none;
+	line-height: 1.8;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+.phone-number{
+	color: #fff !important;
+	margin: -30px 5px 0px 0px;
+}
+
+.phone-number b{
+	color: #fff !important;
+}
+
+.phone-number img{
+	margin-bottom: 5px;
+}
+
+
+.mission-text{
+	color:#FFF !important;
+}
+
+.copyright {
+	color:#FFF;
+	text-align:center;
+	opacity: .8;
+	font-size: .9em;
+}
+
+.sm-text{
+	font-size:85%;
+	font-style:italic;
+	color:#999;
+}
+
+.indiv-features li{
+	padding-bottom:8px;
+	list-style:none;
+}
+
+
+/* Logos & Icons
+================================= */
+
+.main-logo {
+	width: 230px;
+	height: 56px;
+	text-indent: 100%;
+	margin-top: 12px;
+	white-space: nowrap;
+	overflow: hidden;
+	background: url('../img/main-logo.png') no-repeat;
+	background-size: 100%;
+}
+
+.prime-logo-main {
+	width:	300px;
+	height: 207px;
+	margin-bottom:10px;
+	background:url('../img/prime-logo-main.png') no-repeat;
+}
+
+.msp-logo {
+	background:url('../img/WhiteMeridianLogo.png') no-repeat;
+	width: 200px;
+	height: 49px;
+	margin: -.75em auto .95em auto;
+}
+
+.glyphicon {
+	font-size: 1.3em;
+	margin-right: 10px;
+}
+
+.glyphicon-chevron-left{
+	color:#003056;
+	
+}
+
+.glyphicon-chevron-right{
+	color:#003056;
+	margin-left:25px !important;
+	
+}
+
+.student-icon {
+	width: 250px;
+	height: 188px;
+	margin:0px auto 0px auto;
+	background: url('../img/ft-icons-students.png') no-repeat;
+	margin-bottom:10px;
+}
+
+.indiv-features .glyphicon{
+	font-size:1em;
+	color: #ef8200;
+}
+
+.teacher-icon {
+	width: 250px;
+	height: 188px;
+	margin:0px auto 0px auto;
+	background: url('../img/ft-icons-teachers.png') no-repeat;
+	margin-bottom:10px;
+}
+
+.parent-icon {
+	width: 250px;
+	height: 188px;
+	margin:0px auto 0px auto;
+	background: url('../img/ft-icons-parents.png') no-repeat;
+	margin-bottom:10px;
+}
+
+/* Logos & Icons-PRIME Main Page
+================================= */
+
+.school-info-logo{
+	width: 89px;
+	height: 89px;
+	background: url('../img/school-info-logo.png');
+	margin:0 auto 10px auto;
+}
+
+.student-logo{
+	width: 89px;
+	height: 89px;
+	background: url('../img/student-logo.png');
+	margin:0 auto 10px auto;
+}
+
+.teacher-logo{
+	width: 89px;
+	height: 89px;
+	background: url('../img/teacher-icon.png');
+	margin:0 auto 10px auto;
+}
+
+.admin-logo{
+	width: 89px;
+	height: 89px;
+	background: url('../img/admin-logo.png');
+	margin:0 auto 10px auto;
+}
+
+.parent-logo{
+	width: 89px;
+	height: 89px;
+	background: url('../img/parent-logo.png');
+	margin:0 auto 10px auto;
+}
+
+.home-logo{
+	width: 89px;
+	height: 89px;
+	background: url('../img/home-logo.png');
+	margin:0 auto 10px auto;
+}
+
+.educational-logo{
+	width: 89px;
+	height: 89px;
+	background: url('../img/educational-logo.png');
+	margin:0 auto 10px auto;
+}
+
+.inbox-logo{
+	width: 89px;
+	height: 89px;
+	background: url('../img/inbox-logo.png');
+	margin:0 auto 10px auto;
+}
+
+.timetable-logo{
+	width: 89px;
+	height: 89px;
+	background: url('../img/timetable-logo.png');
+	margin:0 auto 10px auto;
+}
+
+.calendar-logo{
+	width: 89px;
+	height: 89px;
+	background: url('../img/calendar-logo.png');
+	margin:0 auto 10px auto;
+}
+
+/* Jumbotron
+================================= */
+
+.jumbotron {
+	background-image: url('../img/main-bkgrd.png');
+	background-repeat: no-repeat;
+	background-position: 100% 200%;
+	background-size: 100% 100%;
+	padding: 150px 0 0px 0;
+	margin-bottom: 30px;
+}
+
+.device {
+	width: 600px;
+	height: 490px;
+	margin-bottom:50px;
+	margin-right: 0px;
+	/* background: url('../img/devices.png') no-repeat; */
+}
+
+.student-hero {
+	width: 554px;
+	height: 550px;
+	background: url('../img/student-hero.png') no-repeat;
+	margin-bottom:0px;
+}
+
+.student-hero-med {
+	width: 374px;
+	height: 608px;
+	background: url('../img/student-hero-med.png') no-repeat;
+	margin-top: 40px;
+	margin-bottom:0px;
+}
+
+.teacher-hero {
+	width: 554px;
+	height: 550px;
+	background: url('../img/teacher-hero.png') no-repeat;
+	margin-bottom:0px;
+}
+
+.teacher-hero-med {
+	width: 374px;
+	height: 608px;
+	background: url('../img/teacher-hero-med.png') no-repeat;
+	margin-top:60px;
+	margin-bottom:0px;
+}
+
+.admin-hero {
+	width: 554px;
+	height: 550px;
+	background: url('../img/admin-hero.png') no-repeat;
+	margin-bottom:0px;
+}
+
+.admin-hero-med {
+	width: 374px;
+	height: 608px;
+	background: url('../img/admin-hero-med.png') no-repeat;
+	margin-top:60px;
+	margin-bottom:0px;
+}
+
+.prime-hero {
+	width: 554px;
+	height: 445px;
+	background: url('../img/prime-hero.png') no-repeat;
+	margin-bottom:0px;
+	margin-top: 65px;
+}
+/* sm-iPad Portrait
+================================= */
+.prime-hero-med {
+	width: 400px;
+	height: 337px;
+	background: url('../img/prime-hero-med.png') no-repeat;
+	margin-top: 200px;
+}
+
+.parent-hero {
+	width: 554px;
+	height: 550px;
+	background: url('../img/parent-hero.png') no-repeat;
+	margin-bottom:0px;
+}
+
+.parent-hero-med {
+	width: 450px;
+	height: 531px;
+	background: url('../img/parent-hero-med.png') no-repeat;
+	margin-top:140px;
+	margin-left:10px;
+	margin-bottom:0px;
+}
+
+.planner-hero {
+	width: 389px;
+	height: 500px;
+	background: url('../img/planner-hero.png') no-repeat;
+	margin-bottom:0px;
+	margin-right:65px;
+}
+
+.primary-hero {
+	width: 554px;
+	height: 500px;
+	background: url('../img/primary_hero.png') no-repeat;
+	margin-bottom:0px;
+	margin-right:35px;
+}
+
+.primary-hero-md {
+	width: 350px;
+	height: 414px;
+	background: url('../img/primary-hero-md.png') no-repeat;
+	margin-top: 65px;
+	margin-right:0px;
+}
+
+.primary-stand-hero {
+	width: 397px;
+	height: 500px;
+	background: url('../img/primary_stand_hero.png') no-repeat;
+	margin-bottom:0px;
+	margin-right:65px;
+}
+
+.primary-person-hero {
+	width: 397px;
+	height: 500px;
+	background: url('../img/primary_person_hero.png') no-repeat;
+	margin-bottom:0px;
+	margin-right:65px;
+}
+
+.elem-hero {
+	width: 554px;
+	height: 500px;
+	background: url('../img/elem_hero.png') no-repeat;
+	margin-bottom:0px;
+	margin-right:35px;
+}
+
+.elem-hero-sm {
+	width: 350px;
+	height: 414px;
+	background: url('../img/elem-hero-sm.png') no-repeat;
+	margin-top: 85px;
+	margin-right:0px;
+}
+
+.elem-person-hero{
+	width: 397px;
+	height: 500px;
+	background: url('../img/elem_person_hero.png') no-repeat;
+	margin-bottom:0px;
+	margin-right:65px;
+}
+
+.elem-stand-hero{
+	width: 397px;
+	height: 500px;
+	background: url('../img/elem-stand_hero.png') no-repeat;
+	margin-bottom:0px;
+	margin-right:65px;
+}
+
+.middle-hero {
+	width: 554px;
+	height: 500px;
+	background: url('../img/middle-hero.png') no-repeat;
+	margin-bottom:0px;
+	margin-right:35px;
+}
+
+.middle-hero-sm {
+	width: 350px;
+	height: 414px;
+	background: url('../img/ms-hero-sm.png') no-repeat;
+	margin-top: 65px;
+	margin-right:0px;
+}
+
+.ms-stand-hero{
+	width: 400px;
+	height: 500px;
+	background: url('../img/middle-stand-hero.png') no-repeat;
+	margin-bottom:0px;
+	margin-right:65px;
+}
+
+.ms-person-hero{
+	width: 400px;
+	height: 500px;
+	background: url('../img/middle-person-hero.png') no-repeat;
+	margin-bottom:0px;
+	margin-right:65px;
+}
+
+.hs-hero{
+	width: 554px;
+	height: 500px;
+	background: url('../img/hs-hero.png') no-repeat;
+	margin-bottom:0px;
+	margin-right:35px;
+}
+
+.hs-stand-hero{
+	width: 400px;
+	height: 500px;
+	background: url('../img/hs-stand-hero.png') no-repeat;
+	margin-bottom:0px;
+	margin-right:65px;
+}
+
+.hs-person-hero{
+	width: 400px;
+	height: 500px;
+	background: url('../img/hs-person-hero.png') no-repeat;
+	margin-bottom:0px;
+	margin-right:65px;
+}
+
+.folder-hero{
+	width: 377px;
+	height: 500px;
+	background: url('../img/folder_hero.png') no-repeat;
+	margin-bottom:0px;
+	margin-right:65px;
+}
+
+.cover-hero{
+	width: 352px;
+	height: 500px;
+	background: url('../img/cover-hero.png') no-repeat;
+	margin-bottom:0px;
+	margin-right:65px;
+}
+
+.student-ipad{
+	width: 500px;
+	height: 402px;
+	background: url('../img/student-iPad.png') no-repeat;
+	margin-bottom:-50px;
+	
+}
+
+.teacher-ipad{
+	width: 500px;
+	height: 402px;
+	background: url('../img/teacher-iPad.png') no-repeat;
+	margin-bottom:-50px;
+	
+}
+
+.admin-laptop{
+	width: 500px;
+	height: 402px;
+	background: url('../img/admin-laptop.png') no-repeat;
+}
+
+.parent-laptop{
+	width: 500px;
+	height: 402px;
+	background: url('../img/parent-laptop.png') no-repeat;
+}
+
+
+.student-ipad-med{
+	width: 300px;
+	height: 253px;
+	margin-top: 35px;
+	background: url('../img/student-iPad-med.png') no-repeat;
+}
+
+.student-ipad-sm{
+	width: 200px;
+	height: 161px;
+	margin-top: 35px;
+	background: url('../img/student-iPad-sm.png') no-repeat;
+}
+
+.teacher-ipad-med{
+	width: 300px;
+	height: 253px;
+	margin-top: 35px;
+	background: url('../img/teacher-iPad-med.png') no-repeat;
+}
+
+.admin-laptop-med{
+	width: 300px;
+	height: 253px;
+	margin-top: 35px;
+	background: url('../img/admin-laptop-med.png') no-repeat;
+}
+
+.parent-laptop-med{
+	width: 300px;
+	height: 253px;
+	margin-top: 35px;
+	background: url('../img/parent-laptop-med.png') no-repeat;
+}
+
+.planner-main{
+	width: 400px;
+	height: 445px;
+	margin-left:50px;
+	/*background:url(../img/planner_main_content.png) no-repeat;*/
+}
+
+.planner-main-med{
+	width: 350px;
+	height: 389px;
+	background:url(../img/planner_main_content-med.png) no-repeat;
+	
+}
+
+.aboutusimg{
+	width:500px;
+	height:421px;
+	background:url(../img/aboutus-img.png) no-repeat;
+}
+
+.center{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* Panel
+================================= */
+.panel-size{
+	height: 420px;	
+}
+
+.panel-size-orders{
+	height: 300px;	
+}
+
+.panel-size-lg{
+	height: 460px;	
+}
+
+.panel-body{
+	width:100%;
+	height:100%;
+	margin-left:auto !important;
+	margin-right:auto !important;
+}
+
+.panel-body img{
+	margin-left:auto !important;
+	margin-right:auto !important;
+}
+
+.panel p{
+	margin-top:10px;
+}
+
+.panel h2{
+	margin-top:2px !important;
+}
+
+
+/* Modal
+================================= */
+.modal-body{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.modal-body iframe{
+	margin-top:20px;
+}
+
+.bus-container iframe{
+	margin-top:150px;
+}
+
+/* Buttons
+================================= */
+
+.btn-default {
+	color:#003056;
+	border-width: 2px;
+	border-color: inherit;
+	margin-right: 0px;
+	padding: 12px 22px;
+}
+
+.btn-default:hover {
+	background-color: rgba(250,166,52,0.5) !important;
+	color: #003056;
+	border-color: #003056;
+}
+
+.btn:active {
+	box-shadow: none;
+}
+
+.btn-success {
+	box-shadow: 0 3px 0 #23812f;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	font-size: 1.5em;
+	width: 400px;
+	height:60px !important;
+	padding:15px;
+}
+
+.btn-success-small {
+	box-shadow: 0 3px 0 #23812f;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	font-size: 1.5em;
+	width: 175px;
+	height:50px !important;
+	padding:10px;
+}
+
+.btn-success .amazon {
+	box-shadow: 0 3px 0 #23812f;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	font-size: 1.5em;
+	width: 200px !important;
+	height:60px !important;
+	padding:15px;
+}
+
+.btn-success .teacher-ed {
+	box-shadow: 0 3px 0 #23812f;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	font-size: 1.5em;
+	width: 50px !important;
+	height:60px !important;
+	padding:15px;
+}
+
+/* Layout
+================================= */
+.navbar {
+	border-top:solid;
+	border-top-width:35px;
+	border-top-color:#003056;
+}
+
+
+.ft-copy {
+	text-shadow: none !important;
+	padding-top: 5px;
+	margin-bottom: 50px;
+	padding: 5px 15px 0px 15px;
+}
+
+.ft-copy h2 {
+	padding-top: 5px;
+	padding-right: 65px;
+}
+
+.main-footer {
+	color:#FFF;
+	background-color: #003056;
+	bottom: 0;
+	height: auto;
+	width: 100%;
+	margin-top: 50px;
+	margin-right: 0;
+	margin-left: 0;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.printedplanner-girl{
+	margin:-40px auto 0 auto;
+}
+
+.printedplanner-price{
+	padding-top:150px;
+}
+
+.printedplanner-price h2{
+	font-weight:700;
+	font-size:1.5em;
+}
+
+.callout {
+	padding: 35px 0;
+	margin-top: 34px;
+	text-align: center;
+	/* [disabled]border: 1px solid #e3e3e3; */
+	border-right: none;
+	border-left: none;
+}
+
+.callout .glyphicon {
+	margin: 10px 0 0 5px;
+}
+
+.content h1{
+	padding-left: 15px;
+}
+
+.content h2{
+	padding-left: 30px;
+}
+
+.content h3{
+	padding-left: 30px;
+}
+
+.prime-ft{
+	padding: 0px 50px;
+	margin-bottom: 30px;
+}
+.sample-img{
+	margin-bottom:15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.sample-copy{
+	margin-bottom:30px;
+}
+
+
+/* Links
+================================= */
+
+.main-footer a {
+	color: #fff;
+}
+
+.main-footer p {
+	color: #fff;	
+}
+
+.link-list .heading {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.sub-link-list {
+	list-style-type: none;
+	margin-left:-15px;
+}
+
+
+
+/* Carousel
+================================ */
+
+.carousel{
+	background-image:none !important;
+	width: 580px !important;
+}
+.carousel-control.left {
+	background-image:none !important;
+}
+.carousel-control.right {
+	background-image:none !important;
+	right:-25px !important;
+}
+
+#myCarousel .carousel-inner{
+	width:450px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.carousel-indicators {
+	bottom:0;
+}
+
+.carousel-indicators .active {
+	background-color: #222;
+}
+
+.carousel-indicators li {
+	border-color: #222;
+}
+
+.item h2{
+	font-weight:700;
+	font-size:1.5em;
+	text-align:center;
+	margin-top:10px;
+}
+
+.jack-iframe{
+	width:100%;
+	height:400px;
+}
+
+
+/* Color Options
+================================= */
+.yellow{
+	width: 260px;
+	height: 50px;
+	background-color: #FFFF00;
+}
+
+.gold{
+	width: 260px;
+	height: 50px;
+	background-color: #FFCC00;
+}
+
+.orange{
+	width: 260px;
+	height: 50px;
+	background-color: #FF6600;
+}
+
+.purple{
+	width: 260px;
+	height: 50px;
+	background-color: #CC0099;
+}
+
+.green{
+	width: 260px;
+	height: 50px;
+	background-color: #009900;
+}
+
+.red{
+	width: 260px;
+	height: 50px;
+	background-color: #FF0000;
+}
+
+.burgundy{
+	width: 260px;
+	height: 50px;
+	background-color: #990000;
+}
+
+.brown{
+	width: 260px;
+	height: 50px;
+	background-color: #663333;
+}
+
+.process-blue{
+	width: 260px;
+	height: 50px;
+	background-color: #3399FF
+}
+
+.brilliant-blue{
+	width: 260px;
+	height: 50px;
+	background-color: #0033CC;
+}
+
+.dark-blue{
+	width: 260px;
+	height: 50px;
+	background-color: #330099;
+}
+
+.black{
+	width: 260px;
+	height: 50px;
+	background-color: #000000;
+}
+
+
+/* Media Queries
+================================= */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+	.device {
+		width: 500px;
+		height: 409px;
+		margin-top:30px;
+		margin-bottom:20px;
+	}
+
+	
+	.primary-hero {
+		width: 450px;
+		height: 494px;
+		background: url('../img/primary_hero_landscape.png') no-repeat;
+		margin-bottom:0px;
+		margin-right:0px;
+	}
+	
+	.elem-hero {
+		width: 450px;
+		height: 494px;
+		background: url('../img/elem_hero_landscape.png') no-repeat;
+		margin-bottom:0px;
+		margin-right:0px;
+	}
+	
+		
+	.middle-hero {
+		width: 450px;
+		height: 494px;
+		background: url('../img/middle-hero-landscape.png') no-repeat;
+		margin-top: 0px;
+		margin-right:0px;
+	}
+	
+	.hs-hero {
+		width: 450px;
+		height: 494px;
+		background: url('../img/hs-hero-landscape.png') no-repeat;
+		margin-bottom:0px;
+		margin-right:0px;
+	}
+
+/* Color Options
+================================= */
+	.yellow{
+		width: 150px;
+		height: 50px;
+		background-color: #FFFF00;
+	}
+
+	.gold{
+		width: 150px;
+		height: 50px;
+		background-color: #FFCC00;
+	}
+
+	.orange{
+		width: 150px;
+		height: 50px;
+		background-color: #FF6600;
+	}
+
+	.purple{
+		width: 150px;
+		height: 50px;
+		background-color: #CC0099;
+	}
+
+	.green{
+		width: 150px;
+		height: 50px;
+		background-color: #009900;
+	}
+
+	.red{
+		width: 150px;
+		height: 50px;
+		background-color: #FF0000;
+	}
+
+	.burgundy{
+		width: 150px;
+		height: 50px;
+		background-color: #990000;
+	}
+
+	.brown{
+		width: 150px;
+		height: 50px;
+		background-color: #663333;
+	}
+
+	.process-blue{
+		width: 150px;
+		height: 50px;
+		background-color: #3399FF
+	}
+
+	.brilliant-blue{
+		width: 150px;
+		height: 50px;
+		background-color: #0033CC;
+	}
+
+	.dark-blue{
+		width: 150px;
+		height: 50px;
+		background-color: #330099;
+	}
+
+	.black{
+		width: 150px;
+		height: 50px;
+		background-color: #000000;
+	}	
+	
+	
+}
+
+/* sm
+================================= */
+@media (max-width: 991px) {
+
+	.jumbotron {
+		padding-top: 80px;
+		padding-bottom: 0px;
+		background-position: 10% 10%;
+	}
+	.jumbotron h1 {
+		padding-top: 45px;
+		padding-bottom: 0px;
+		background-position: 10% 10%;
+	}
+	.ft-copy {
+		padding-top: 12px;
+	}
+	.ft-copy p {
+		width: auto;
+		text-shadow: none;
+	}
+	.device {
+		margin-top: 28px;
+	}
+	.device-xs {
+		margin-top: 75px;
+	}
+	.printedplanner-girl{
+		margin:0px auto 0 auto;
+	}
+	.printedplanner-price{
+		padding:150px 0 0 45px;
+	}
+	
+	.carousel{
+		background-image:none !important;
+		width: 380px !important;
+	}
+	
+	#myCarousel .carousel-inner{
+		width:250px;
+	}
+	
+	.device {
+		width: 350px;
+		height: 473px;
+		margin-top:50px;
+		margin-bottom:20px;
+		background: url('../img/devices-xs.png') no-repeat;
+	}
+		
+	.teacher-hero {
+		width: 554px;
+		height: 608px;
+		background: url('../img/teacher-hero.png') no-repeat;
+		margin-top:45px;
+		margin-bottom:-50px;
+	}
+	
+	.prime-logo-main {
+		width:	300px;
+		height: 207px;
+		margin-top:45px;
+		margin-bottom:10px;
+		background:url('../img/prime-logo-main.png') no-repeat;
+	}
+	
+	.planner-hero {
+		width: 389px;
+		height: 608px;
+		background: url('../img/planner-hero.png') no-repeat;
+		margin-top:35px;
+		margin-bottom:0px;
+		margin-right:0px;
+	}
+	
+	.primary-stand-hero {
+		width: 397px;
+		height: 626px;
+		background: url('../img/primary_stand_hero.png') no-repeat;
+		margin-top: 45px;
+		margin-bottom:0px;
+		margin-right:0px;
+	}
+
+	.primary-person-hero {
+		width: 397px;
+		height: 626px;
+		background: url('../img/primary_person_hero.png') no-repeat;
+		margin-top: 45px;
+		margin-bottom:0px;
+		margin-right:0px;
+	}
+
+	.elem-person-hero {
+		width: 397px;
+		height: 626px;
+		background: url('../img/elem_person_hero.png') no-repeat;
+		margin-bottom:0px;
+		margin-top: 45px;
+		margin-right:0px;
+	}
+
+	.elem-stand-hero {
+		width: 397px;
+		height: 626px;
+		background: url('../img/elem-stand_hero.png') no-repeat;
+		margin-top: 50px;
+		margin-bottom:-85px;
+		margin-right:0px;
+	}
+	
+	.ms-stand-hero{
+		width: 400px;
+		height: 626px;
+		background: url('../img/middle-stand-hero.png') no-repeat;
+		margin-top:45px;
+		margin-bottom:0px;
+		margin-right:0px;
+	}
+	
+	.ms-person-hero{
+		width: 400px;
+		height: 626px;
+		background: url('../img/middle-person-hero.png') no-repeat;
+		margin-bottom:0px;
+		margin-top: 45px;
+		margin-right:0px;
+	}
+	
+	.hs-stand-hero{
+		width: 400px;
+		height: 626px;
+		background: url('../img/hs-stand-hero.png') no-repeat;
+		margin-bottom:0px;
+		margin-top: 45px;
+		margin-right:0px;
+	}
+	
+	.hs-person-hero{
+		width: 400px;
+		height: 626px;
+		background: url('../img/hs-person-hero.png') no-repeat;
+		margin-bottom:0px;
+		margin-top: 45px;
+		margin-right:0px;
+	}
+
+	.folder-hero {
+		width: 377px;
+		height: 626px;
+		background: url('../img/folder_hero.png') no-repeat;
+		margin-top: 25px;
+		margin-bottom:0px;
+		margin-right:0px;
+	}
+	
+	.cover-hero {
+		width: 352px;
+		height: 626px;
+		background: url('../img/cover-hero.png') no-repeat;
+		margin-top: 25px;
+		margin-bottom:0px;
+		margin-right:0px;
+	}
+	
+	.panel-size{
+		height: 530px;	
+	}
+	
+	.panel-size-lg{
+		height: 520px;	
+	}
+	
+	.middle-hero {
+		width: 350px;
+		height: 414px;
+		background: url('../img/ms-hero-sm.png') no-repeat;
+		margin-top: 105px;
+		margin-right:0px;
+	}
+	
+	.hs-hero {
+		width: 350px;
+		height: 414px;
+		background: url('../img/hs-hero-sm.png') no-repeat;
+		margin-top: 70px;
+		margin-bottom:0px;
+		margin-right:0px;
+	}
+	
+	/* Color Options
+================================= */
+	.yellow{
+		width: 150px;
+		height: 50px;
+		background-color: #FFFF00;
+	}
+
+	.gold{
+		width: 150px;
+		height: 50px;
+		background-color: #FFCC00;
+	}
+
+	.orange{
+		width: 150px;
+		height: 50px;
+		background-color: #FF6600;
+	}
+
+	.purple{
+		width: 150px;
+		height: 50px;
+		background-color: #CC0099;
+	}
+
+	.green{
+		width: 150px;
+		height: 50px;
+		background-color: #009900;
+	}
+
+	.red{
+		width: 150px;
+		height: 50px;
+		background-color: #FF0000;
+	}
+
+	.burgundy{
+		width: 150px;
+		height: 50px;
+		background-color: #990000;
+	}
+
+	.brown{
+		width: 150px;
+		height: 50px;
+		background-color: #663333;
+	}
+
+	.process-blue{
+		width: 150px;
+		height: 50px;
+		background-color: #3399FF
+	}
+
+	.brilliant-blue{
+		width: 150px;
+		height: 50px;
+		background-color: #0033CC;
+	}
+
+	.dark-blue{
+		width: 150px;
+		height: 50px;
+		background-color: #330099;
+	}
+
+	.black{
+		width: 150px;
+		height: 50px;
+		background-color: #000000;
+	}	
+
+
+}
+
+/* xs
+================================= */
+
+@media (max-width: 767px) {
+
+	.h2{
+		line-height: 3.5;
+	}
+	
+	.jumbotron {
+		padding-top: 50px;
+		margin-bottom: 32px;
+	}
+	.lead {
+		margin-bottom: 40px;
+	}
+	.ft {
+		margin-bottom: 16px;
+	}
+	hr {
+		margin-bottom: 40px;
+	}
+	.btn-success {
+		width: 85%;
+		font-size: initial;
+	}
+	.callout, 
+	.link-list {
+		margin-top: 32px;
+	}
+	.main-footer {
+		margin-top: 15px;
+	}
+	.link-list {
+		float: left;
+		margin-right: 32px;
+	}
+	.printedplanner-girl{
+		margin:0px auto 0 auto;
+	}
+	.printedplanner-price{
+		padding:150px 0 0 25px;
+	}
+	.carousel{
+		background-image:none !important;
+		width: 330px !important;
+	}
+	
+	#myCarousel .carousel-inner{
+		width:200px;
+	}
+	.carousel-control.right {
+		background-image:none !important;
+		right:-10px !important;
+	}
+
+	.teacher-hero {
+		width: 554px;
+		height: 608px;
+		background: url('../img/teacher-hero.png') no-repeat;
+		margin-top:45px;
+		margin-bottom:-50px;
+	}
+	
+	.prime-logo-main {
+		width:	300px;
+		height: 207px;
+		margin-top:45px;
+		margin-bottom:10px;
+		background:url('../img/prime-logo-main.png') no-repeat;
+	}
+	
+	.main-logo {
+		width: 180px;
+		height: 44px;
+		text-indent: 100%;
+		margin-top: 12px;
+		white-space: nowrap;
+		overflow: hidden;
+		background: url('../img/main-logo-xs.png') no-repeat;
+		background-size: 100%;
+	}
+
+/* Color Options
+================================= */
+	.yellow{
+		width: 50px;
+		height: 50px;
+		background-color: #FFFF00;
+	}
+
+	.gold{
+		width: 50px;
+		height: 50px;
+		background-color: #FFCC00;
+	}
+
+	.orange{
+		width: 50px;
+		height: 50px;
+		background-color: #FF6600;
+	}
+
+	.purple{
+		width: 50px;
+		height: 50px;
+		background-color: #CC0099;
+	}
+
+	.green{
+		width: 50px;
+		height: 50px;
+		background-color: #009900;
+	}
+
+	.red{
+		width: 50px;
+		height: 50px;
+		background-color: #FF0000;
+	}
+
+	.burgundy{
+		width: 50px;
+		height: 50px;
+		background-color: #990000;
+	}
+
+	.brown{
+		width: 50px;
+		height: 50px;
+		background-color: #663333;
+	}
+
+	.process-blue{
+		width: 50px;
+		height: 50px;
+		background-color: #3399FF
+	}
+
+	.brilliant-blue{
+		width: 50px;
+		height: 50px;
+		background-color: #0033CC;
+	}
+
+	.dark-blue{
+		width: 50px;
+		height: 50px;
+		background-color: #330099;
+	}
+
+	.black{
+		width: 50px;
+		height: 50px;
+		background-color: #000000;
+	}	
+
+
+}
+
+    
