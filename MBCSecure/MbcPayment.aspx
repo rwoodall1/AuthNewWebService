@@ -336,7 +336,7 @@ Security Code:<br>
           </span>       
           State:<asp:DropDownList ID="ddlState" runat="server" DataSourceID="dsState" DataTextField="abrv" DataValueField="name" Height="18px" Width="114px">
           </asp:DropDownList>
-          &nbsp;Zip Code:<asp:TextBox ID="txtzipcode" runat="server"></asp:TextBox>
+          &nbsp;Zip Code:<asp:TextBox ID="txtzipcode" runat="server" MaxLength="5"></asp:TextBox>
 &nbsp;<span class="error_text"><asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ControlToValidate="txtzipcode" Display="Dynamic" EnableClientScript="False" ErrorMessage="Enter Zip Code" ValidationGroup="gv1"></asp:RequiredFieldValidator>
           </span>
     </div>

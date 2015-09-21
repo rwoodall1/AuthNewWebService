@@ -115,8 +115,9 @@ Partial Class receipt
             Try
                 Dim lblemail As Label = FormView1.FindControl("lblemail")
                 email = lblemail.Text
-                Dim lbltransid As Label = FormView1.FindControl("lbltransactionid")
-                transid = lbltransid.Text
+            Dim lbltransid As Label = FormView1.FindControl("lbltransactionid")
+
+            transid = lbltransid.Text
                 Dim lblpaytype As Label = FormView1.FindControl("lblpaytype")
                 paytype = lblpaytype.Text
 
