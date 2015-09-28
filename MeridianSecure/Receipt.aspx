@@ -271,7 +271,7 @@
     </div>
 	</div>   
 
-</form>
+    </div>
 <asp:SqlDataSource ID="dsorders_details" runat="server" 
             ConnectionString="<%$ ConnectionStrings:MeridianConn %>" 
             ProviderName="<%$ ConnectionStrings:MeridianConn.ProviderName %>" 
@@ -281,6 +281,12 @@
         <asp:QueryStringParameter Name="orderid" QueryStringField="orderid" />
     </SelectParameters>
         </asp:SqlDataSource>
+<asp:SqlDataSource ID="dsOrder" runat="server" 
+            ConnectionString="<%$ ConnectionStrings:MeridianConn %>" 
+            ProviderName="<%$ ConnectionStrings:MeridianConn.ProviderName %>">
+        </asp:SqlDataSource>
+
+</form>
         <eo:MsgBox ID="MsgBox1" runat="server" BackColor="#EBEBEB" 
             CloseButtonUrl="00070301" ControlSkinID="None" HeaderHtml="Dialog Title" 
             Height="216px" Width="320px">

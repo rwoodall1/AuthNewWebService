@@ -126,15 +126,15 @@ Partial Class PoPay
 
 
 				If authresponse.Approved Then
-
-					Session.Add("ordermessage", "Thank you! Payment has been submitted for the amount of " & authresponse.Amount _
+                    Session.Add("transid", authresponse.TransId.ToString()) 'for email
+                    Session.Add("ordermessage", "Thank you! Payment has been submitted for the amount of " & authresponse.Amount _
 					 & " to Meridian Planners." & "<br /> Transaction ID: " & authresponse.TransId & "<br />Card Number:" & authresponse.CardNum & IIf(txtPo.Text = Nothing, "", "<br />Invoice/PO:" & txtPo.Text))
 
 					Session.Add("addressinfo", lblname.Text & "(Id:" & hfschcode.Value & ")<br />" & lbladdress.Text & "<br />" & lblcitystatezip.Text)
 
 					UpdatePayment(authresponse.TransId, authresponse.AuthCode, x_card_num.Text.Substring(x_card_num.Text.Length - 4))
-					EmailReceipt(authresponse.TransId.ToString, x_card_num.Text.Substring(x_card_num.Text.Length - 4), authresponse.Amount.ToString)
-					CSEmailReceipt(authresponse.TransId.ToString, x_card_num.Text.Substring(x_card_num.Text.Length - 4), authresponse.Amount.ToString)
+                    EmailReceipt(authresponse.TransId.ToString(), x_card_num.Text.Substring(x_card_num.Text.Length - 4), authresponse.Amount.ToString)
+                    CSEmailReceipt(authresponse.TransId.ToString, x_card_num.Text.Substring(x_card_num.Text.Length - 4), authresponse.Amount.ToString)
 					'Dim time As TimeSpan = Date.Now.TimeOfDay
 					'type determine if email is sent when receipt page is accessed
 					Response.Redirect("receipt1.aspx")
@@ -373,9 +373,9 @@ Partial Class PoPay
 			'Send the email in text format
 			objMM.IsBodyHtml = True
 
-			'Set the subject
-			objMM.Subject = "Receipt for payment to Meridian Student Planners (Transaction Id: " & Session("transid") & ")"
-			Dim a As Decimal = CDec(amount)
+            'Set the subject
+            objMM.Subject = "Receipt for payment to Meridian Student Planners (Transaction Id: " & transid & ")"
+            Dim a As Decimal = CDec(amount)
 
 			Dim camount As String = a.ToString("N2")
 			If rbpaytype.SelectedValue = "CC" Then

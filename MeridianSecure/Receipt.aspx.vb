@@ -27,15 +27,13 @@ Partial Class Receipt
     Protected Sub Page_Load(sender As Object, e As System.EventArgs) Handles Me.Load
         If Not IsPostBack Then
 
-            Dim senttime As TimeSpan = TimeSpan.Parse(Request.QueryString("secval"))
-            Dim curtime As TimeSpan = Today.TimeOfDay
-            Dim timediff As TimeSpan = curtime - senttime
-            Dim diff As Integer = timediff.Seconds
-            If diff < 14400 Then 'four hours then access is cut off
+
+            If CheckIfEmailed() Then
+
+            Else
                 Session.Clear()
                 EmailReceipt()
-            Else
-                Response.Redirect("www.meridianplanners.com/MeridianOrders")
+
             End If
         End If
     End Sub
@@ -108,7 +106,7 @@ Partial Class Receipt
         cuser = ConfigurationManager.AppSettings("smtpuser")
         cpassword = ConfigurationManager.AppSettings("smtppassword")
         'Set the properties
-		objMM.From = New MailAddress(ConfigurationManager.AppSettings("FromAddrmer"), ConfigurationManager.AppSettings("FromNamemer"))
+        objMM.From = New MailAddress(ConfigurationManager.AppSettings("FromAddrmer"), ConfigurationManager.AppSettings("FromNamemer"))
 
         Try
             objMM.To.Add(tomail) 'customer address if address bad try statement in send will catch
@@ -152,6 +150,7 @@ Partial Class Receipt
         Try
             'smtp.DeliveryMethod = SmtpDeliveryMethod.PickupDirectoryFromIis 'only works on some servers
             smtp.Send(objMM)
+            SetCsEmailTrue()
         Catch ex As Exception
             MsgBox1.Show("Email Error", "Your confirmation email was not sent because of the following error:" & ex.Message & "Your order has been received and will be processed. No further action is needed.", Nothing, New EO.Web.MsgBoxButton("OK"))
             Dim objMM1 As New MailMessage
@@ -179,6 +178,43 @@ Partial Class Receipt
         End Try
 
 
+
+    End Sub
+    Private Function CheckIfEmailed() As Boolean
+        Dim dvSql As New DataView
+        Dim drvSql As DataRowView
+        Dim a As Integer
+        Dim sstring As String = dsorder.SelectCommand
+        Dim retval As Boolean = False
+        dsorder.SelectCommand = "SELECT distinct csemailed FROM orders  WHERE orderid=@orderid;"
+        dsorder.SelectParameters.Clear()
+        dsorder.SelectParameters.Add("@orderid", Request.QueryString("orderid"))
+        Try
+            dvSql = CType(Me.dsorder.Select(DataSourceSelectArguments.Empty), Data.DataView)
+            For Each drvSql In dvSql 'only one record
+                a = drvSql("csemailed")
+                If a = 0 Then
+                    retval = False
+                ElseIf a = 1 Then
+                    retval = True
+                End If
+            Next
+        Catch ex As Exception
+
+        End Try
+        dsorder.SelectCommand = sstring
+        Return retval
+    End Function
+    Protected Sub SetCsEmailTrue()
+        dsOrder.UpdateCommand = "update orders set csemailed=1 where orderid=@orderid;"
+        dsOrder.UpdateParameters.Clear()
+        dsOrder.UpdateParameters.Add("@orderid", Request.QueryString("orderid"))
+        Try
+            dsOrder.Update()
+
+        Catch ex As Exception
+
+        End Try
 
     End Sub
 

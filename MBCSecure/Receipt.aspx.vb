@@ -332,6 +332,7 @@ Partial Class receipt
     End Function
     Protected Sub SetCsEmailTrue()
         dsorder.UpdateCommand = "update orders set csemailed=1 where orderid=@orderid;"
+        dsorder.UpdateParameters.Clear()
         dsorder.UpdateParameters.Add("@orderid", Request.QueryString("orderid"))
         Try
             dsorder.Update()
